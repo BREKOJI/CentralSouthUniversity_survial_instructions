@@ -85,7 +85,7 @@
    - 可以直接在`docs/chapters/`目录下阅读Markdown格式的原始文档
   
 2. **访问github部署的网页**：
-   - 访问'https://brekoji.github.io/CentralSouthUniversity_survial_instructions/website/public/'，可直接使用
+   - 访问`https://brekoji.github.io/CentralSouthUniversity_survial_instructions/website/public/`，可直接使用
 
 3. **本地部署+本地网页浏览**：
    - 进入网站目录：`cd website`
