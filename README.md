@@ -83,8 +83,11 @@
 
 1. **直接阅读**：
    - 可以直接在`docs/chapters/`目录下阅读Markdown格式的原始文档
+  
+2. **访问github部署的网页**：
+   - 访问'https://brekoji.github.io/CentralSouthUniversity_survial_instructions/website/public/'，可直接使用
 
-2. **网页浏览**：
+3. **本地部署+本地网页浏览**：
    - 进入网站目录：`cd website`
    - 启动本地HTTP服务器：
      ```bash
@@ -96,7 +99,7 @@
      ```
    - 在浏览器中访问 `http://localhost:8000`
 
-3. **离线PDF**：
+4. **离线PDF**：
    - 项目发布页面提供PDF版本下载（计划中）
 
 ## 如何参与
