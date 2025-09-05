@@ -1,0 +1,181 @@
+/* 全局样式 */
+body {
+    font-family: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 导航栏样式 */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+/* 下拉菜单样式 */
+.dropdown-menu {
+    z-index: 1030;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* 序言页面样式 */
+.preface-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.preface-content p {
+    margin-bottom: 1.5rem;
+    text-indent: 2em;
+}
+
+.preface-content p:first-of-type::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+/* 序言摘要样式 */
+.preface-excerpt {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #0d6efd;
+    padding-left: 1.5rem;
+}
+
+.preface-excerpt p {
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+/* 主页横幅 */
+.hero-section {
+    background: linear-gradient(135deg, #0062cc, #0096ff);
+    color: white;
+    padding: 80px 0;
+    margin-bottom: 30px;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-section .lead {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+/* 章节卡片 */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #0062cc;
+    font-weight: 600;
+}
+
+/* 章节部分 */
+#chapters .card {
+    margin-bottom: 20px;
+}
+
+/* 关于我们部分 */
+#about {
+    background-color: #f8f9fa;
+}
+
+/* 参与贡献部分 */
+#contribute .border {
+    transition: all 0.3s ease;
+}
+
+#contribute .border:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 页脚样式 */
+footer {
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-section .lead {
+        font-size: 1.2rem;
+    }
+}
+
+/* 中南大学主题色 */
+.bg-primary {
+    background-color: #003c8f !important; /* 中南大学蓝色 */
+}
+
+.btn-primary {
+    background-color: #003c8f;
+    border-color: #003c8f;
+}
+
+.btn-primary:hover {
+    background-color: #002d6b;
+    border-color: #002d6b;
+}
+
+.btn-outline-primary {
+    color: #003c8f;
+    border-color: #003c8f;
+}
+
+.btn-outline-primary:hover {
+    background-color: #003c8f;
+    border-color: #003c8f;
+}
+
+.card-title {
+    color: #003c8f;
+}
+
+/* 自定义动画 */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

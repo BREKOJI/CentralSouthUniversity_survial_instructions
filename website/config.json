@@ -1,0 +1,106 @@
+{
+  "site": {
+    "title": "中南大学生存指南",
+    "description": "助力每一位中南学子成长与发展",
+    "baseUrl": "/",
+    "language": "zh-CN",
+    "author": "中南大学生存指南团队"
+  },
+  "navigation": [
+    {
+      "title": "首页",
+      "url": "/"
+    },
+    {
+      "title": "序言",
+      "url": "/preface.html"
+    },
+    {
+      "title": "章节",
+      "url": "/#chapters"
+    },
+    {
+      "title": "关于",
+      "url": "/#about"
+    },
+    {
+      "title": "贡献",
+      "url": "/#contribute"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "freshman-guide",
+      "title": "新生指南",
+      "description": "入学准备、校园生活、学习方法、社团活动等新生必备信息。",
+      "url": "/chapters/freshman-guide.html",
+      "icon": "graduation-cap"
+    },
+    {
+      "id": "major-study",
+      "title": "专业学习",
+      "description": "各学院专业介绍、课程评价与建议、学习资源推荐、考试经验分享。",
+      "url": "/chapters/major-study.html",
+      "icon": "book"
+    },
+    {
+      "id": "research-competition",
+      "title": "科研与竞赛",
+      "description": "科研入门指南、常见竞赛介绍、实验室资源、优秀案例分享。",
+      "url": "/chapters/research-competition.html",
+      "icon": "flask"
+    },
+    {
+      "id": "internship-job",
+      "title": "实习与就业",
+      "description": "简历与面试、行业分析、校招信息、职业规划相关内容。",
+      "url": "/chapters/internship-job.html",
+      "icon": "briefcase"
+    },
+    {
+      "id": "graduate-abroad",
+      "title": "考研与出国",
+      "description": "考研经验、留学申请、语言考试、奖学金信息等升学指导。",
+      "url": "/chapters/graduate-abroad.html",
+      "icon": "globe"
+    },
+    {
+      "id": "life-growth",
+      "title": "生活与成长",
+      "description": "心理健康、时间管理、社交技巧、个人成长等全面发展指南。",
+      "url": "/chapters/life-growth.html",
+      "icon": "heart"
+    },
+    {
+      "id": "alumni-resources",
+      "title": "校友资源",
+      "description": "优秀校友访谈、校友网络、经验分享等校友资源整合。",
+      "url": "/chapters/alumni-resources.html",
+      "icon": "users"
+    },
+    {
+      "id": "special-resources",
+      "title": "特色资源",
+      "description": "中南大学特色项目、校内外资源整合、信息渠道等特色内容。",
+      "url": "/chapters/special-resources.html",
+      "icon": "star"
+    }
+  ],
+  "social": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/your-repo",
+      "icon": "github"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:contact@example.com",
+      "icon": "envelope"
+    }
+  ],
+  "build": {
+    "outputDir": "public",
+    "assetsDir": "assets",
+    "docsDir": "../docs"
+  }
+}

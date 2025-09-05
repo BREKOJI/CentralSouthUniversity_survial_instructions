@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中南大学生存指南</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/校徽.png" alt="中南大学校徽" style="height: 40px; margin-right: 8px;">中南大学生存指南</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="preface.html">序言</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="chaptersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                章节
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="chaptersDropdown">
+                                <li><a class="dropdown-item" href="chapters/freshman-guide.html">新生指南</a></li>
+                                <li><a class="dropdown-item" href="chapters/major-study.html">专业学习</a></li>
+                                <li><a class="dropdown-item" href="chapters/research-competition.html">科研与竞赛</a></li>
+                                <li><a class="dropdown-item" href="chapters/life-growth.html">生活与成长</a></li>
+                                <li><a class="dropdown-item" href="chapters/grad-abroad.html">考研与出国</a></li>
+                                <li><a class="dropdown-item" href="chapters/internship-employment.html">实习与就业</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">关于我们</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contribute">参与贡献</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 主页横幅 -->
+        <section class="hero-section">
+            <div class="container text-center py-5">
+                <h1 class="display-4">中南大学生存指南</h1>
+                <p class="lead">助力每一位中南学子成长与发展</p>
+                <div class="mt-4">
+                    <a href="#chapters" class="btn btn-primary btn-lg me-2">开始阅读</a>
+                    <a href="#contribute" class="btn btn-outline-primary btn-lg" style="background-color: rgba(1, 132, 255, 0.486); color: rgba(255, 255, 255, 0.6);">参与贡献</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 项目介绍 -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="mb-4">项目简介</h2>
+                        <p class="lead">「中南大学生存指南」是一个面向中南大学本科生的非官方指导手册，旨在帮助中南大学的学生更好地规划学习生活，找到人生方向。本项目受到了「上海交通大学生存手册」和「清华大学飞跃计划」等优秀项目的启发，希望能够为中南大学的学生提供类似的帮助。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 序言摘要 -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <h2 class="text-center mb-4">序言摘要</h2>
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body p-4">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <blockquote class="blockquote preface-excerpt">
+                                            <p>希望阅读这本指南的学弟学妹们能保持青春的活力和热情，在中南大学找到自己理想的方向，大胆思考，勇于创新，毫无保留地追求自己的梦想，书写属于自己的精彩篇章。我们相信你们一定能创造属于自己的独特经历和精彩故事，你们的大学生活和未来人生充满了无限可能，因为你们正拥有着最宝贵的财富：年轻！</p>
+                                            <footer class="blockquote-footer text-end">摘自《中南大学生存指南序言》</footer>
+                                        </blockquote>
+                                    </div>
+                                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                        <a href="preface.html" class="btn btn-primary btn-lg">阅读完整序言</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 章节导航 -->
+        <section id="chapters" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">内容章节</h2>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">新生指南</h5>
+                                <p class="card-text">入学准备、校园生活、学习方法、社团活动等新生必备信息。</p>
+                                <a href="chapters/freshman-guide.html" class="btn btn-sm btn-primary">阅读详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">专业学习</h5>
+                                <p class="card-text">各学院专业介绍、课程评价与建议、学习资源推荐、考试经验分享。</p>
+                                <a href="chapters/major-study.html" class="btn btn-sm btn-primary">阅读详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">科研与竞赛</h5>
+                                <p class="card-text">科研入门指南、常见竞赛介绍、实验室资源、优秀案例分享。</p>
+                                <a href="chapters/research-competition.html" class="btn btn-sm btn-primary">阅读详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">实习与就业</h5>
+                                <p class="card-text">简历与面试、行业分析、校招信息、职业规划相关内容。</p>
+                                <a href="chapters/internship-employment.html" class="btn btn-sm btn-primary">阅读详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">考研与出国</h5>
+                                <p class="card-text">考研经验、留学申请、语言考试、奖学金信息等升学指导。</p>
+                                <a href="chapters/grad-abroad.html" class="btn btn-sm btn-primary">阅读详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">生活与成长</h5>
+                                <p class="card-text">心理健康、时间管理、社交技巧、个人成长等全面发展指南。</p>
+                                <a href="chapters/life-growth.html" class="btn btn-sm btn-primary">阅读详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">校友资源</h5>
+                                <p class="card-text">优秀校友访谈、校友网络、经验分享等校友资源整合。</p>
+                                <a href="#" class="btn btn-sm btn-primary">阅读详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">特色资源</h5>
+                                <p class="card-text">中南大学特色项目、校内外资源整合、信息渠道等特色内容。</p>
+                                <a href="#" class="btn btn-sm btn-primary">阅读详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于我们 -->
+        <section id="about" class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-center mb-4">关于我们</h2>
+                        <div class="text-center mb-4">
+                            <img src="images/校门.jpg" alt="中南大学校门" class="img-fluid" style="max-height: 300px;">
+                        </div>
+                        <p>「中南大学生存指南」是由中南大学学生和校友共同发起的非官方项目，旨在通过分享经验和资源，帮助中南大学学生更好地规划学习生活，找到人生方向。</p>
+                        <p>我们相信，每一位学长学姐的经验都是宝贵的财富，通过系统性地整理和分享这些经验，可以帮助更多的学弟学妹少走弯路，更高效地利用大学时光。</p>
+                        <p>本项目内容均由贡献者自愿提供，仅供参考，不代表中南大学官方立场。我们会尽力保证内容的准确性，但不对因使用本指南造成的任何后果负责。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 参与贡献 -->
+        <section id="contribute" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-center mb-4">参与贡献</h2>
+                        <p>我们欢迎所有中南大学的学生、校友以及教职工参与到本项目中来。您可以通过以下方式参与：</p>
+                        <div class="row mt-4">
+                            <div class="col-md-4 text-center mb-4">
+                                <div class="p-3 border rounded">
+                                    <h5>提交内容</h5>
+                                    <p>分享您的学习经验、生活技巧或者其他有价值的信息</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center mb-4">
+                                <div class="p-3 border rounded">
+                                    <h5>修改完善</h5>
+                                    <p>帮助我们修正错误、更新过时的信息</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center mb-4">
+                                <div class="p-3 border rounded">
+                                    <h5>技术支持</h5>
+                                    <p>协助网站开发、文档排版等工作</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-3">具体的参与方式请参考 <a href="https://github.com/your-repo/CONTRIBUTING.md" target="_blank">贡献指南</a>。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>中南大学生存指南</h5>
+                    <p>助力每一位中南学子成长与发展</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>本项目采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" class="text-white">CC BY-NC-SA 4.0</a> 进行许可</p>
+                    <p>&copy; 2023 中南大学生存指南</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
