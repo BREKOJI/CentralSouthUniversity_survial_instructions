@@ -64,6 +64,41 @@
    - 社交技巧
    - 个人成长
 
+## 本地使用指南
+
+### 获取项目
+
+1. **克隆仓库**：
+   ```bash
+   git clone https://github.com/BREKOJI/CentralSouthUniversity_survial_instructions.git
+   cd CentralSouthUniversity_survial_instructions
+   ```
+
+2. **直接下载**：
+   - 访问项目GitHub页面
+   - 点击"Code"按钮，选择"Download ZIP"
+   - 解压下载的文件到本地目录
+
+### 浏览文档
+
+1. **直接阅读**：
+   - 可以直接在`docs/chapters/`目录下阅读Markdown格式的原始文档
+
+2. **网页浏览**：
+   - 进入网站目录：`cd website`
+   - 启动本地HTTP服务器：
+     ```bash
+     # 使用Python（推荐）
+     python -m http.server 8000 --directory public
+     
+     # 或使用Node.js
+     npx serve public
+     ```
+   - 在浏览器中访问 `http://localhost:8000`
+
+3. **离线PDF**：
+   - 项目发布页面提供PDF版本下载（计划中）
+
 ## 如何参与
 
 我们欢迎所有中南大学的学生、校友以及教职工参与到本项目中来。您可以通过以下方式参与：
