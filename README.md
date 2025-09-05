@@ -124,8 +124,8 @@
 
 如有任何问题或建议，请通过以下方式联系我们：
 
-- 项目仓库：[[GitHub地址](https://github.com/BREKOJI/CentralSouthUniversity_survial_instructions)]
-- 电子邮件：[联系邮箱(934974681@qq.com)]
+- 项目仓库：[[GitHub地址](https://github.com/BREKOJI/CentralSouthUniversity_survial_instructions)
+- 电子邮件：[联系邮箱](934974681@qq.com)
 
 ---
 
